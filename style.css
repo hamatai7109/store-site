@@ -1,0 +1,186 @@
+/*general*/
+html{
+    font-family: Arial、Hiragino Sans、Hiragino Kaku Gothic ProN、Meiryo、sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+
+/*header*/
+.main-visual{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+
+header{
+    position: relative;
+}
+
+header h1{
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+
+/*news*/
+.section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title h2{
+    padding-top: 20px;
+}
+
+.section-title p{
+    width: 60%;
+    text-align: center;
+}
+
+.archive-new-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.archive-new-container{
+    position: relative;
+    padding: 30px;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    margin: auto;
+    text-align: center;
+    background-color: rgba(49, 49, 49, 0.5);
+    color: white;
+    width: 50%;
+}
+
+.archive-new-img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*fashion-style*/
+.fashion-style{
+    margin-bottom: 50px;
+    height: 520px;
+    background-image: url(../img/fashion.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+
+.read-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    border: 1px solid gray;
+    width: 140px;
+    height: 40px;
+    text-decoration: none;
+
+}
+
+
+/*catalog-antique*/
+
+.catalog-antique{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color:rgb(247, 247, 247);
+
+
+}
+
+.catalog-antique-img{
+    height: 600px;
+    padding: 10px;
+    width: 50%;
+    object-fit: cover;
+}
+
+.catalog-antique-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog-antique-title p{
+    font-size: 14px;
+    width: 80%;
+}
+
+
+/*footer*/
+footer{
+    background-color: black;
+    color: white;
+    height: 250px;
+}
+
+.footer-menu{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.footer-left{
+    width: 30%;
+    padding-left: 40px;
+}
+
+.footer-middle{
+    width: 33%;
+    padding-top: 0;
+}
+
+.footer-middle li{
+    font-size: 12px;
+    margin-left: 40px;
+}
+
+.footer-right{
+    width: 30%;
+}
+
+.footer-right-title{
+    margin-top: 5px;
+}
+
+.footer-right-text{
+    font-size: 12px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    width: 100%;
+    font-size: 12px;
+}
+
+
+
