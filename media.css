@@ -1,0 +1,61 @@
+@media screen and (max-width:894px) {
+    .section-title{
+       width: 90%;
+       margin: 0 auto;
+    }
+
+    .section-title h2{
+       font-size: 22px;
+    }
+    
+    .section-title p{
+        width: 90%;
+    }
+
+    .archive-new-containers{
+        flex-direction: column;
+    }
+
+    .catalog-antique{
+        flex-direction: column;
+    }
+
+    .catalog-antique-img{
+        height: 400px;
+        width: 100%;
+    }
+
+    .flex-order .catalog-antique-img{
+        order: 1;
+    }
+
+    .flex-order .catalog-antique-title{
+        order: 2;
+    }
+
+    footer{
+        height: 500px;
+    }
+
+    .footer-menu{
+        flex-direction: column;
+    }
+
+    .footer-left{
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-middle{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .footer-right{
+        width: 100%;
+        margin-top: 50px;
+
+    }
+    
+
+}
